@@ -1,0 +1,76 @@
+﻿Tranning Java
++ Document Java, java conversion
+	http://www.oracle.com/technetwork/java/codeconvtoc-136057.html
+	https://drive.google.com/open?id=1jiq3Y37TOnRWhnMiMtB789bt_rxBqMEZsW1pjxZcEc4 
+
+-Mẹo làm việc: xem sheet JAVA
+	https://docs.google.com/spreadsheets/d/1sBDPUUWrimQSioeM6mNv5NESchaBXfxyzPi7qof72hY/edit?usp=sharing 
+
+::Tuần 1:: Set up môi trường, nắm được OOP
+	(0.5 days) Set up môi trường
+		→ Cài đặt jdk 7 : http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+		→ Cài đặt Eclipse (Mars) : http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars1
+		→ Cài đặt Tomcat 7 : http://mirrors.viethosting.vn/apache/tomcat/tomcat-7/v7.0.65/bin/apache-tomcat-7.0.65.exe
+
+	(2.5 days) Tìm hiểu về OOP: 
+Làm dạng slide, trình bày những cái đã hiểu + demo
+		→ Tại sao cần dùng OOP
+		→ Lợi ích (điểm mạnh) khi dùng OOP
+		→ Các đặc tính của OOP
+		→ Nắm vững được các đối tượng liệt kê dưới đây :
+			► Object
+			► Class
+			► Inheritance
+			► Interface
+			► Package
+			► Modifiers
+			► Overloading vs overiding
+		→ Khi nào sử dụng Interface, khi nào sử dụng abstract class. Nêu điểm mạnh của từng loại
+
+	(2 days) Tìm hiểu về Design Pattern
+Làm dạng slide, trình bày những cái đã hiểu + demo
+		→ Tại sao cần áp dụng Design Pattern trong việc thiết kế, sản xuất phần mềm?
+		→ Đặc tính của Design Pattern
+		→ Có bao nhiêu loại (category) Design Pattern, kể tên từng loại.
+		→ Liệt kê những Design Pattern mà bạn biết trong từng loại (category) - sơ đồ hoạt động
+
+Sau tuần này team Java sẽ sắp xếp 30 phút, hỏi lại những slide học viên đã làm, xem học viên có thực sự hiểu không.
+-----------------------------------------------------------------------------------------------------------------------
+Tuần 2: (5 days) Tìm hiểu về Design Pattern
+Làm demo về các pattern sau :
+	+ Creational patterns
+		→ Singleton pattern
+		→ Abstract Factory pattern
+		→ Factory pattern
+	+ Structural patterns
+		→ Adapter pattern
+		→ Facade pattern
+	+ Behavioral patterns
+		→ Interpreter pattern
+		→ Iterator pattern
+		→ Null Object pattern
+		→ Strategy pattern
+
+-----------------------------------------------------------------------------------------------------------------------
+Tuần 3: (5 days) Tìm hiểu về Java Core
+Trình bày dạng slide hoặc doc + code java demo.
+		→ Tìm hiểu và sử dụng được những thư viện trong gói java.util
+			► List và các thư viện đi kèm theo List
+			► Map và các thư viện đi kèm theo Map, HashMap, HashTable
+			► Set và các thư viện đi kèm theo Set
+			► Date
+			► Collections
+			► Vectors
+			► Properties
+			► Rescource Bundle
+			► Calendar
+			► Enum
+			► Iterator
+		→ Tìm hiểu và sử dụng được những thư viện trong gói java.io (FileInputStream, FileOutputStream, BufferedInputStream, BufferedOutputStream)
+Tìm hiểu thêm một số lớp quan trọng như:						
+	+ java.io.File: dùng để tạo file/folder, xóa file, get đường dẫn file,...		
++ java.io.PrintWriter: in file với autoflush		
+	+ Lớp interface: Serializable, DataInput		
+	+ Lớp exceptions thường gặp: FileNotFoundException, IOException, UnsupportedEncodingException	
+		→ Tìm hiểu và sử dụng được những thư viện trong gói java.lang (StringBuffer, StringBuilder)
+		→ Khi nào sử dụng String/ String Builder/ String Buffer
