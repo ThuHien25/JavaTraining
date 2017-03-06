@@ -1,0 +1,1 @@
+It is used to print the formatted representation of objects to the text-output stream.
