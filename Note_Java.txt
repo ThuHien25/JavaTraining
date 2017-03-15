@@ -1,11 +1,12 @@
 ﻿Tranning Java
+----------------------------------------------------------------------------------------------------------------------------------------------
 + Document Java, java conversion
 	http://www.oracle.com/technetwork/java/codeconvtoc-136057.html
 	https://drive.google.com/open?id=1jiq3Y37TOnRWhnMiMtB789bt_rxBqMEZsW1pjxZcEc4 
 
 -Mẹo làm việc: xem sheet JAVA
 	https://docs.google.com/spreadsheets/d/1sBDPUUWrimQSioeM6mNv5NESchaBXfxyzPi7qof72hY/edit?usp=sharing 
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 ::Tuần 1:: Set up môi trường, nắm được OOP
 	(0.5 days) Set up môi trường
 		→ Cài đặt jdk 7 : http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
@@ -52,7 +53,7 @@ Làm demo về các pattern sau :
 		→ Strategy pattern
 
 -----------------------------------------------------------------------------------------------------------------------
-Tuần 3: (5 days) Tìm hiểu về Java Core
+Tuần 03: (5 days) Tìm hiểu về Java Core
 Trình bày dạng slide hoặc doc + code java demo.
 		→ Tìm hiểu và sử dụng được những thư viện trong gói java.util
 			► List và các thư viện đi kèm theo List
@@ -74,3 +75,29 @@ Tìm hiểu thêm một số lớp quan trọng như:
 	+ Lớp exceptions thường gặp: FileNotFoundException, IOException, UnsupportedEncodingException	
 		→ Tìm hiểu và sử dụng được những thư viện trong gói java.lang (StringBuffer, StringBuilder)
 		→ Khi nào sử dụng String/ String Builder/ String Buffer
+----------------------------------------------------------------------------------------------------------------------------------------------
+Tuần 04: Java Coding standard và MVC model
+	(1 day) Đọc và ghi nhớ Java Coding Standard, áp dụng cho quá trình code bài tập.
+
+	(2 days) Tìm hiểu về MVC Model
+		→ Tại sao nên áp dụng MVC Model ?
+		→ Các thành phần của MVC Model ? Các vai trò của mỗi thành phần ?
+
+	(2 days) Bài tập về MVC Model
+		→ Dùng MVC Model để thiết kế một hệ thống xuất ra danh sách thông tin chi tiết của sinh viên.
+----------------------------------------------------------------------------------------------------------------------------------------------
+Tuần 05: Spring MVC
+	(2 days) Tìm hiểu về Spring Framework MVC(4)
+		→ Tìm hiểu về kiến trúc (architecture) của Spring FW.
+		→ Điểm mạnh của Spring FW.
+                      → Làm sample về Spring MVC.
+
+	(2 days) Tìm hiểu về các core component của Spring Framework
+		→ Inversion Of Control (IoC) and Dependency Injection (DI).
+		→ Aspect Oriented Programming (AOP).
+
+	(1 day) Tìm hiểu về các thành phần khác của Spring Framework
+		→ Spring - Bean Life Cycle.
+		→ Spring - Injecting.
+		→ Spring - Beans Auto-Wiring
+	Lưu ý: Phải tìm hiểu thật kỹ, code demo về Spring MVC
