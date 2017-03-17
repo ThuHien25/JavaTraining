@@ -1,0 +1,126 @@
+package transfer;
+
+import model.StudentDAOImpl;
+import model.Students;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import model.StudentDAO;
+import utils.ConnectionPool;
+
+/*
+ * Author: ThuHien.
+ * Class StudentTranfer tương ứng chuyển đổi dữ liệu lấy từ StudentDAOImpl
+ * */
+public class StudentTranfer {
+
+	private StudentDAO StudentDAO;
+
+	public StudentTranfer(ConnectionPool cp) {
+		this.StudentDAO = new StudentDAOImpl(cp);
+	}
+
+	/******* Các phương thức quản lý connection ********/
+	public ConnectionPool getConnectionPool() {
+		return this.StudentDAO.getConnectionPool();
+	}
+
+	public void releaseConnection() {
+		this.StudentDAO.releaseConnection();
+	}
+
+	public void refreshConnectionPool() {
+		this.StudentDAO.refreshConnectionPool();
+	}
+
+	/***************/
+	public List<Students> find(int start, int limit) {
+		List<Students> list = null;
+		ResultSet rs = this.StudentDAO.find(start, limit);
+		
+		// neu rs co gia tri khac null
+		if (rs != null) {
+			list = new ArrayList<Students>();
+			Students s = null;
+			try {
+				// lap cho den khi het ban ghi
+				while (rs.next()) {
+					// khoi tao moi cac doi tuong lien quan
+					s = new Students();
+					// set cac gia tri cho cac doi tuong
+					s.setId(rs.getInt(3));
+					s.setName(rs.getString(4));
+					s.setBirthday(rs.getDate(7));
+					s.setClassName(rs.getString(9));
+					
+					// them  vao list
+					list.add(s);
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return list;
+	}
+
+	public List<Post> findAll() {
+		List<Post> list = null;
+		ResultSet rs = this.postDAO.findAll();
+		// neu rs co gia tri khac null
+		if (rs != null) {
+			list = new ArrayList<Post>();
+			Post p = null;
+			User u = null;
+			Category c = null;
+			try {
+				// lap cho den khi het ban ghi
+				while (rs.next()) {
+					// khoi tao moi cac doi tuong lien quan
+					p = new Post();
+					u = new User();
+					c = new Category();
+					// set cac gia tri cho cac doi tuong
+					p.setPostId(rs.getInt(3));
+					p.setPostName(rs.getString(4));
+					p.setPostContent(rs.getString(5));
+					p.setPostSlug(rs.getString(6));
+					p.setPublishDate(rs.getDate(7));
+					p.setLastEdit(rs.getDate(8));
+					p.setImage(rs.getString(9));
+					p.setNumViews(rs.getInt(10));
+					p.setStatus(rs.getInt(11));
+					c.setCateId(rs.getInt(2));
+					c.setCateName(rs.getString(12));
+					c.setCateDesc(rs.getString(13));
+					c.setParentCate(rs.getInt(14));
+					c.setSlug(rs.getString(15));
+					c.setPath(rs.getString(16));
+					// set the loai cho post
+					p.setCategory(c);
+					u.setUserId(rs.getInt(1));
+					u.setFirstName(rs.getString(17));
+					u.setLastName(rs.getString(18));
+					u.setGender(rs.getBoolean(19));
+					u.setEmail(rs.getString(20));
+					u.setPassword(rs.getString(21));
+					u.setUserRole(rs.getString(22));
+					u.setBio(rs.getString(23));
+					u.setActivationDate(rs.getDate(24));
+					u.setAvatar(rs.getString(25));
+					// set nguoi dung cho post
+					p.setUser(u);
+					// them post vao list
+					list.add(p);
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return list;
+	}
+}

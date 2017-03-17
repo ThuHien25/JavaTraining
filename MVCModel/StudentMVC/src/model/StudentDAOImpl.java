@@ -1,0 +1,78 @@
+package model;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentDAOImpl implements StudentDAO {
+
+	protected Connection connection;
+
+	@Override
+	public Connection getConnecttion() {
+		Connection con = null;
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/qlsinhvien", "root", "");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return con;
+	}
+
+	@Override
+	public List<Student> getListStudent() {
+		Connection con = getConnecttion();
+		String sql = "SELECT * FROM students";
+		ArrayList<Student> list = new ArrayList<>();
+		try {
+			PreparedStatement ps = (PreparedStatement) con.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+
+			// neu rs co gia tri khac null
+			if (rs != null) {
+				// lap cho den khi het ban ghi
+				while (rs.next()) {
+					// khoi tao moi cac doi tuong lien quan
+					Student s = new Student();
+
+					// set cac gia tri cho cac doi tuong
+					s.setId(rs.getInt(1));
+					s.setName(rs.getString(2));
+					s.setBirthday(rs.getDate(3));
+					s.setClassName(rs.getString(4));
+
+					// them vao list
+					list.add(s);
+				}
+			}
+			con.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return list;
+	}
+
+	@Override
+	public List<Student> getListStudent(int first, int maxValues) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static void main(String[] args) {
+		StudentDAO ps = new StudentDAOImpl();
+		List<Student> plist = ps.getListStudent();
+		if (plist != null) {
+			for (Student p : plist) {
+				System.out.println(p.getName());
+			}
+		} else {
+			System.out.println("Không có dữ liệu!");
+		}
+	}
+
+}

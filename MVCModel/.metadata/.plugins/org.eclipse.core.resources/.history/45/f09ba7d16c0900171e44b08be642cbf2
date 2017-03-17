@@ -1,0 +1,49 @@
+package service;
+
+import java.util.List;
+
+import model.Students;
+import transfer.StudentTranfer;
+import utils.ConnectionPool;
+
+public class StudentServiceImpl implements StudentService {
+	private StudentTranfer StudentTranfer;
+    public StudentServiceImpl(ConnectionPool cp) {
+        this.StudentTranfer = new StudentTranfer(cp);
+    }
+    /***************/
+    public ConnectionPool getConnectionPool() {
+        return this.StudentTranfer.getConnectionPool();
+    }
+    public void releaseConnection() {
+        this.StudentTranfer.releaseConnection();
+    }
+    public void refreshConnectionPool() {
+        this.StudentTranfer.refreshConnectionPool();
+    }
+    /***************/
+    @Override
+    public List<Students> findAll() {
+        List<Students> list = this.StudentTranfer.findAll();
+        this.StudentTranfer.releaseConnection();
+        return list;
+    }
+    @Override
+    public List<Students> find(int start, int limit) {
+        List<Students> list = this.StudentTranfer.find(start, limit);
+        this.StudentTranfer.releaseConnection();
+        return list;
+    }
+    
+    public static void main(String [] args){
+    	StudentService ps = new StudentServiceImpl(null);
+        List<Students> plist = ps.findAll();
+        if(plist!=null){
+            for(Students p : plist){
+                System.out.println(p.getName());
+            }
+        }else{
+            System.out.println("Không có dữ liệu!");
+        }
+    }
+}

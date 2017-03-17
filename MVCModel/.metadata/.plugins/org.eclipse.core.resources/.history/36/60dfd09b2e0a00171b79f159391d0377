@@ -1,0 +1,13 @@
+package dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.List;
+
+public interface StudentInterface {
+
+	
+	public List<Student> getListStudent();
+
+	public List<Student> getListStudent(int first, int maxValues);
+}

@@ -1,0 +1,67 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import model.ConnectionDB;
+import model.ConnectionDBImpl;
+
+
+public class StudentDAO implements StudentInterface {
+
+	protected Connection connection;
+
+	@Override
+	public List<Student> getListStudent() {
+		List<Student> list = new ArrayList<Student>();
+		String sql = "SELECT * FROM students";
+		try {
+			PreparedStatement pre = this.connection.prepareStatement(sql);
+			ResultSet rs = pre.executeQuery();
+
+			// neu rs co gia tri khac null
+			if (rs != null) {
+				// lap cho den khi het ban ghi
+				while (rs.next()) {
+					// khoi tao moi cac doi tuong lien quan
+					Student s = new Student();
+
+					// set cac gia tri cho cac doi tuong
+					s.setId(rs.getInt(1));
+					s.setName(rs.getString(2));
+					s.setBirthday(rs.getDate(3));
+					s.setClassName(rs.getString(4));
+
+					// them vao list
+					list.add(s);
+				}
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return list;
+	}
+
+	@Override
+	public List<Student> getListStudent(int first, int maxValues) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public static void main(String [] args){
+		StudentInterface ps = new StudentDAOImpl();
+        List<Student> plist = ps.getListStudent();
+        if(plist!=null){
+            for(Student p : plist){
+                System.out.println(p.getName());
+            }
+        }else{
+            System.out.println("Không có dữ liệu!");
+        }
+    }
+
+}

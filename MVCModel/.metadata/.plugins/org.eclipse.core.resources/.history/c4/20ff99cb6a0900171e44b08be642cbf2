@@ -1,0 +1,36 @@
+package model;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import dao.StudentDAO;
+import utils.ConnectionPool;
+
+public class StudentDAOImpl extends BaseDAOImpl implements StudentDAO {
+	
+	public StudentDAOImpl(ConnectionPool cp) {
+        super(cp);
+    }
+
+	//Hàm lấy tất cả dữ liệu bao gồm cả thông tin của user tương ứng.
+    @Override
+    public ResultSet findAll() {
+        String sql = "SELECT * FROM students";
+        return this.get(sql);
+    }
+    //tương tự hàm findAll nhưng có thêm giới hạn dữ liệu lấy ra(dùng để phân trang)
+    @Override
+    public ResultSet find(int start, int limit) {
+        try {
+            String sql = "SELECT * FROM students  LIMIT ?, ?";
+            PreparedStatement pre = this.connection.prepareStatement(sql);
+            pre.setInt(1, start);
+            pre.setInt(2, limit);
+            return this.get(pre);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+}

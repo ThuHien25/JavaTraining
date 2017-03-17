@@ -1,0 +1,15 @@
+package model;
+
+import java.sql.SQLException;
+import java.sql.Connection;
+
+/*
+ * Author: ThuHien.
+ * Interface này xác định các phương thức cần thiết của một Connection
+ * */
+public interface ConnectionDB {
+	//return connection
+	public Connection getConnection() throws SQLException;
+	
+	public void releaseConnection(java.sql.Connection)
+}

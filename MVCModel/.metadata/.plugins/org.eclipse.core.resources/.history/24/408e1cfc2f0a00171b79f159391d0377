@@ -1,0 +1,13 @@
+package dao;
+
+import java.sql.Connection;
+import java.util.List;
+
+public interface StudentInterface {
+
+	public Connection getConnecttion();
+	
+	public List<Student> getListStudent();
+
+	public List<Student> getListStudent(int first, int maxValues);
+}

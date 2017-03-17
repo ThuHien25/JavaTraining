@@ -1,0 +1,81 @@
+package model;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Properties;
+import java.util.Stack;
+
+/*
+ * Author: ThuHien.
+ * */
+public class ConnectionDBImpl implements ConnectionDB {
+
+	// information account database
+	private String username;
+	private String userpass;
+	private String driver; // Thong tin trinh dieu khien
+	private String url; // Thong tin duong dan toi CSDL trong MySQL
+	private Stack<Connection> stackConn; // Ngan xap luu tru cac ket noi
+
+	public ConnectionDBImpl() {
+		Properties properties = new Properties();
+		try {
+			properties.load(
+					Thread.currentThread().getContextClassLoader().getResourceAsStream("database_info.properties"));
+			this.username = properties.getProperty("USER");
+			this.userpass = properties.getProperty("PASSWORD");
+			this.url = properties.getProperty("URL");
+
+			// Thong tin trinh dieu khien
+			this.driver = "com.mysql.jdbc.Driver";
+
+			// Khoi tao Stack luu cac connection
+			this.stackConn = new Stack<Connection>();
+
+			// load JDBC driver
+			Class.forName(this.driver).newInstance();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (InstantiationException e) {
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public Connection getConnection() throws SQLException {
+
+		if (this.stackConn.isEmpty()) {
+			return DriverManager.getConnection(this.url, this.username, this.userpass);
+		} else {
+			return (Connection) this.stackConn.pop();
+		}
+	}
+
+	@Override
+	public void releaseConnection(Connection con) throws SQLException {
+		this.stackConn.push(con);
+	}
+
+	@Override
+	public void refreshConnection() {
+		while (!stackConn.empty()) {
+			try {
+				stackConn.pop().close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+package model;
+
+import java.sql.Connection;
+import java.util.List;
+
+public interface StudentInterface {
+
+	// get string connect with mysql
+	public Connection getConnecttion();
+	
+	public List<Student> getListStudent();
+
+	public List<Student> getListStudent(int first, int maxValues);
+}

@@ -1,0 +1,10 @@
+package dao;
+
+import java.util.List;
+
+public interface StudentInterface {
+
+	public List<Student> getListStudent();
+
+	public List<Student> getListStudent(int first, int maxValues);
+}

@@ -1,0 +1,99 @@
+package transfer;
+
+import model.StudentDAOImpl;
+import model.Students;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import dao.StudentDAO;
+import utils.ConnectionPool;
+
+/*
+ * Author: ThuHien.
+ * Class StudentTranfer tương ứng chuyển đổi dữ liệu lấy từ StudentDAOImpl
+ * */
+public class StudentTranfer {
+
+	private StudentDAO StudentDAO;
+
+	public StudentTranfer(ConnectionPool cp) {
+		this.StudentDAO = new StudentDAOImpl(cp);
+	}
+
+	/******* Các phương thức quản lý connection ********/
+	public ConnectionPool getConnectionPool() {
+		return this.StudentDAO.getConnectionPool();
+	}
+
+	public void releaseConnection() {
+		this.StudentDAO.releaseConnection();
+	}
+
+	public void refreshConnectionPool() {
+		this.StudentDAO.refreshConnectionPool();
+	}
+
+	/***************/
+	public List<Students> find(int start, int limit) {
+		List<Students> list = null;
+		ResultSet rs = this.StudentDAO.find(start, limit);
+		
+		// neu rs co gia tri khac null
+		if (rs != null) {
+			list = new ArrayList<Students>();
+			Students s = null;
+			try {
+				// lap cho den khi het ban ghi
+				while (rs.next()) {
+					// khoi tao moi cac doi tuong lien quan
+					s = new Students();
+					// set cac gia tri cho cac doi tuong
+					s.setId(rs.getInt(3));
+					s.setName(rs.getString(4));
+					s.setBirthday(rs.getDate(5));
+					s.setClassName(rs.getString(6));
+					
+					// them  vao list
+					list.add(s);
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return list;
+	}
+
+	public List<Students> findAll() {
+		List<Students> list = null;
+		ResultSet rs = this.StudentDAO.findAll();
+		// neu rs co gia tri khac null
+		if (rs != null) {
+			list = new ArrayList<Students>();
+			Students s = null;
+			try {
+				// lap cho den khi het ban ghi
+				while (rs.next()) {
+					// khoi tao moi cac doi tuong lien quan
+					s = new Students();
+					
+					// set cac gia tri cho cac doi tuong
+					s.setId(rs.getInt(3));
+					s.setName(rs.getString(4));
+					s.setBirthday(rs.getDate(5));
+					s.setClassName(rs.getString(6));
+					
+					// them  vao list
+					list.add(s);
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return list;
+	}
+}

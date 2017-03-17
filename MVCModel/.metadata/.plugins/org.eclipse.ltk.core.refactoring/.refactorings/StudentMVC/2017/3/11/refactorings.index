@@ -1,0 +1,14 @@
+1489629844216	Move 'css' to 'WebContent'
+1489632956561	Rename package 'view'
+1489633594245	Delete element
+1489633929419	Rename compilation unit 'Connection.java'
+1489636543002	Delete element
+1489636735928	Delete element
+1489639632701	Rename type 'StudentDAO'
+1489658678541	Delete elements
+1489658681809	Delete element
+1489658715332	Delete element
+1489658724476	Rename package 'dao'
+1489658734955	Delete element
+1489661395387	Rename type 'StudentInterface'
+1489716749712	Rename local variable 'student'

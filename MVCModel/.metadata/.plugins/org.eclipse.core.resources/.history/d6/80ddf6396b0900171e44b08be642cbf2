@@ -1,0 +1,15 @@
+package service;
+
+import java.util.List;
+
+import model.Students;
+
+public interface StudentService extends BaseService {
+	
+	// Lay danh sach 
+    public List<Students> findAll();
+    
+    // Lay danh sach theo phan trang
+    public List<Students> find(int start, int limit);
+    
+}

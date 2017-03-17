@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/model/StudentDAOImpl.java=UTF-8
+encoding//src/model/Students.java=UTF-8
+encoding//src/transfer/StudentTranfer.java=UTF-8
+encoding//src/utils/ConnectionPool.java=UTF-8
+encoding//src/utils/ConnectionPoolImpl.java=UTF-8

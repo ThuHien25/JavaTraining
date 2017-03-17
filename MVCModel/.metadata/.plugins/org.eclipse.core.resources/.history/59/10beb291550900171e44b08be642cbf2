@@ -1,0 +1,20 @@
+package utils;
+
+/*
+ * Author: ThuHien.
+ * Interface này xác định các phương thức cần thiết của một Pool Connection
+ * */
+import java.sql.SQLException;
+import com.mysql.jdbc.Connection;
+
+public interface ConnectionPool {
+
+	// return connection
+	public Connection getConnection() throws SQLException;
+
+	// lay link ket noi
+	public void releaseConnection(Connection con) throws SQLException;
+
+	// lam moi pool
+	public void refreshConnectionPool();
+}
