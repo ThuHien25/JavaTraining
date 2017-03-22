@@ -1,0 +1,7 @@
+package springMVC;
+/*
+ * Author: ThuHien
+ * */
+public class ApplicationContextConfig {
+
+}

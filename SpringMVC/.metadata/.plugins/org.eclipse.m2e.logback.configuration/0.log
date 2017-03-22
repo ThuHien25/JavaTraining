@@ -1,0 +1,216 @@
+2017-03-21 17:21:18,727 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\pom.xml
+2017-03-21 17:21:22,757 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: DemoSpringMVC:SpingMVCHelloWord:0.0.1-SNAPSHOT @ D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\pom.xml.
+2017-03-21 17:21:25,056 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpingMVCHelloWord/src/main/java
+2017-03-21 17:21:25,057 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpingMVCHelloWord/src/main/resources
+2017-03-21 17:21:25,058 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpingMVCHelloWord/src/test/java
+2017-03-21 17:21:29,225 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2017-03-21 17:21:30,627 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:21:30,727 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-21 17:21:30,736 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:21:30,821 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-21 17:21:31,206 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:21:31,250 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-21 17:21:31,255 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:21:31,293 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-21 17:22:24,057 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:22:24,098 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-21 17:22:24,099 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:22:24,126 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-21 17:23:16,878 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:23:16,918 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-21 17:23:16,920 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:23:16,936 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-21 17:23:30,107 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:23:30,149 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-21 17:23:30,151 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:23:30,190 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-21 17:35:08,421 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:35:08,490 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-21 17:35:08,493 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:35:08,508 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-21 17:48:09,775 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: DemoSpringMVC:SpingMVCHelloWord:0.0.1-SNAPSHOT @ D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\pom.xml.
+2017-03-21 17:48:11,474 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:48:11,511 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-21 17:48:11,514 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-21 17:48:11,544 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-21 17:48:11,545 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpingMVCHelloWord
+2017-03-21 17:48:11,546 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpingMVCHelloWord
+2017-03-21 17:48:11,556 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 09:44:34,133 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 09:44:34,287 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 09:44:34,292 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 09:44:34,298 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 10:50:05,836 [Worker-47] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: DemoSpringMVC:SpingMVCHelloWord:0.0.1-SNAPSHOT @ D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\pom.xml.
+2017-03-22 10:50:07,726 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.pom
+2017-03-22 10:50:07,733 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:tomcat7-maven-plugin:jar:2.2 is missing, no dependency information available
+2017-03-22 10:50:08,585 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.jar
+2017-03-22 10:50:08,591 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:tomcat7-maven-plugin:2.2: Plugin org.apache.maven.plugins:tomcat7-maven-plugin:2.2 or one of its dependencies could not be resolved: Could not find artifact org.apache.maven.plugins:tomcat7-maven-plugin:jar:2.2 in central (https://repo.maven.apache.org/maven2)
+2017-03-22 10:50:08,866 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:tomcat7-maven-plugin:jar:2.2 is missing, no dependency information available
+2017-03-22 10:50:08,879 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:tomcat7-maven-plugin:2.2: Plugin org.apache.maven.plugins:tomcat7-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.maven.plugins:tomcat7-maven-plugin:jar:2.2 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced
+2017-03-22 10:50:13,745 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:50:13,790 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 10:50:13,792 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:50:13,802 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 10:50:13,802 [Worker-47] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpingMVCHelloWord
+2017-03-22 10:50:13,807 [Worker-47] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpingMVCHelloWord
+2017-03-22 10:50:13,812 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:tomcat7-maven-plugin:jar:2.2 is missing, no dependency information available
+2017-03-22 10:50:13,824 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:tomcat7-maven-plugin:2.2: Plugin org.apache.maven.plugins:tomcat7-maven-plugin:2.2 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:tomcat7-maven-plugin:jar:2.2 has not been downloaded from it before.
+2017-03-22 10:50:13,837 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:tomcat7-maven-plugin:jar:2.2 is missing, no dependency information available
+2017-03-22 10:50:13,847 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.maven.plugins:tomcat7-maven-plugin:2.2: Plugin org.apache.maven.plugins:tomcat7-maven-plugin:2.2 or one of its dependencies could not be resolved: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.plugins:tomcat7-maven-plugin:jar:2.2 has not been downloaded from it before.
+2017-03-22 10:50:13,860 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:50:14,268 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:50:14,275 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 10:50:14,277 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:50:14,283 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 10:57:10,125 [Worker-50] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: DemoSpringMVC:SpingMVCHelloWord:0.0.1-SNAPSHOT @ D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\pom.xml.
+2017-03-22 10:57:11,487 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:57:11,495 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 10:57:11,498 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:57:11,507 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 10:57:11,508 [Worker-50] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpingMVCHelloWord
+2017-03-22 10:57:11,508 [Worker-50] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpingMVCHelloWord
+2017-03-22 10:57:11,512 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:57:30,233 [Worker-52] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: DemoSpringMVC:SpingMVCHelloWord:0.0.1-SNAPSHOT @ D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\pom.xml.
+2017-03-22 10:57:31,193 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:57:31,202 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 10:57:31,204 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:57:31,214 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 10:57:31,215 [Worker-52] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpingMVCHelloWord
+2017-03-22 10:57:31,215 [Worker-52] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpingMVCHelloWord
+2017-03-22 10:57:31,221 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:57:37,799 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: DemoSpringMVC:SpingMVCHelloWord:0.0.1-SNAPSHOT @ D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\pom.xml.
+2017-03-22 10:57:38,897 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:57:38,909 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 10:57:38,911 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 10:57:38,925 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 10:57:38,926 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpingMVCHelloWord
+2017-03-22 10:57:38,926 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpingMVCHelloWord
+2017-03-22 10:57:38,931 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:18:58,438 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:18:58,479 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:18:58,481 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:18:58,486 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:19:49,414 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:19:49,423 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:19:49,424 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:19:49,430 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:20:33,594 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:20:33,613 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:20:33,617 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:20:33,628 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:20:49,746 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:20:49,763 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:20:49,765 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:20:49,795 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:24:28,637 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @6131148ms
+2017-03-22 11:24:29,149 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2017-03-22 11:24:29,256 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1215982b{/help,null,AVAILABLE}
+2017-03-22 11:24:29,461 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@73446d66{HTTP/1.1}{127.0.0.1:53233}
+2017-03-22 11:24:29,461 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @6131973ms
+2017-03-22 11:45:22,454 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:45:22,497 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:45:22,498 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:45:22,510 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:45:32,956 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:45:32,962 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:45:32,963 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:45:32,973 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:47:45,397 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:47:45,405 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:47:45,407 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:47:45,415 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:47:58,122 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:47:58,130 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:47:58,131 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:47:58,137 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:48:36,793 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:48:36,800 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:48:36,801 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:48:36,806 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:56:19,583 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:56:19,595 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:56:19,596 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:56:19,606 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 11:56:32,180 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:56:32,187 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 11:56:32,188 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 11:56:32,195 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 12:01:59,574 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 12:01:59,624 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 12:01:59,627 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 12:01:59,635 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 12:07:03,711 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@73446d66{HTTP/1.1}{127.0.0.1:0}
+2017-03-22 12:07:03,922 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1215982b{/help,null,UNAVAILABLE}
+2017-03-22 13:51:26,400 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @705201ms
+2017-03-22 13:51:28,133 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2017-03-22 13:51:28,236 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6327cab0{/help,null,AVAILABLE}
+2017-03-22 13:51:28,320 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@7d546f2d{HTTP/1.1}{127.0.0.1:55184}
+2017-03-22 13:51:28,320 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @707124ms
+2017-03-22 13:58:43,716 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 13:58:43,768 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 13:58:43,771 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 13:58:43,779 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 13:59:18,176 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 13:59:18,239 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 13:59:18,240 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 13:59:18,246 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:00:08,543 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:00:08,552 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:00:08,554 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:00:08,564 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:01:12,033 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:01:12,051 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:01:12,053 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:01:12,074 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:02:02,267 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:02:02,352 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:02:02,354 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:02:02,368 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:05:24,460 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:05:24,517 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:05:24,519 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:05:24,532 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:06:08,205 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:06:08,212 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:06:08,214 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:06:08,221 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:06:27,306 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:06:27,312 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:06:27,316 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:06:27,322 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:07:49,059 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:07:49,109 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:07:49,110 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:07:49,116 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:10:33,532 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord
+2017-03-22 14:10:33,532 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2017-03-22 14:10:56,915 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:10:57,571 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:10:57,572 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:10:57,579 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:12:43,171 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:12:43,207 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:12:43,209 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:12:43,214 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:12:51,727 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord
+2017-03-22 14:12:51,728 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2017-03-22 14:13:02,977 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:13:03,042 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:13:03,044 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:13:03,050 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:13:50,564 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:13:50,571 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:13:50,572 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:13:50,578 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:14:12,321 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:14:12,327 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:14:12,329 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:14:12,334 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 14:14:22,768 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord
+2017-03-22 14:14:22,768 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2017-03-22 14:14:32,973 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:14:33,013 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-03-22 14:14:33,014 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-22 14:14:33,019 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\THUCTAP\DEMO\DemoSpringMVC\SpingMVCHelloWord\src\test\resources
+2017-03-22 16:32:22,822 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@7d546f2d{HTTP/1.1}{127.0.0.1:0}
+2017-03-22 16:32:22,922 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6327cab0{/help,null,UNAVAILABLE}
