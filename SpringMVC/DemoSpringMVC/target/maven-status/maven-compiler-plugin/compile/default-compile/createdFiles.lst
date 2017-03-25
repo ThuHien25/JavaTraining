@@ -1,5 +1,0 @@
-springMVC\controller\MainController.class
-springMVC\config\MvcConfiguration.class
-springMVC\model\Student.class
-springMVC\dao\StudentDAO.class
-springMVC\dao\StudentDAOImpl.class
